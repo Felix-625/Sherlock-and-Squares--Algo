@@ -1,1 +1,3 @@
 # Sherlock-and-Squares--Algo
+
+This problem, where for a given range [a, b], the goal is to count how many perfect square numbers (like 1, 4, 9, 16, etc.) exist within that range. The main function first reads the number of queries q, and then for each query, it reads two integers a and b representing the range boundaries. The values are parsed and cleaned using the helper functions ltrim, rtrim, and split, and then passed to the squares function, which is currently unimplemented. The result from the squares function is written to an output file. Once implemented, the squares function will contain the logic to count the perfect squares between a and b, inclusive.
